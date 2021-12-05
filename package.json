@@ -1,0 +1,10 @@
+{
+    "name": "poleski.extensions",
+    "version": "0.0.1",
+    "displayName": "Poleski Extensions",
+    "description": "Unity Extension Library",
+    "scripts": {
+      "build": "bash ./build.sh"
+    }
+  }
+  
