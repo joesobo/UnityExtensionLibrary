@@ -1,6 +1,6 @@
 {
   "name": "poleski.extensions",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "release": "standard-version && git push --follow-tags origin master",
     "prepare": "husky install"

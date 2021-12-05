@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/joesobo/UnityExtensionLibrary/compare/v0.0.2...v0.0.3) (2021-12-05)
+
+
+### Bug Fixes
+
+* added new release command ([b8fd02a](https://github.com/joesobo/UnityExtensionLibrary/commit/b8fd02aed25e79e29333616d2ada4de307e9284f))
+* added working husky ([aad82af](https://github.com/joesobo/UnityExtensionLibrary/commit/aad82af7927d77a7cd5a8943c548c214c1062ecf))
+
 ### 0.0.2 (2021-12-05)
 
 
