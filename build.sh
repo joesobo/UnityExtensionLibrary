@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cp -r ./Assets/* ../UnityPackages/Extensions
+mkdir -p ../UnityPackages/Extensions && cp -r ./Assets/* ../UnityPackages/Extensions
