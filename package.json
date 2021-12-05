@@ -2,22 +2,19 @@
   "name": "poleski.extensions",
   "version": "0.0.2",
   "scripts": {
-    "release": "standard-version"
+    "release": "standard-version",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@commitlint/cli": "^15.0.0",
     "@commitlint/config-conventional": "^15.0.0",
-    "husky": "^7.0.4",
+    "cz-conventional-changelog": "3.3.0",
+    "husky": "^7.0.0",
     "standard-version": "^9.3.2"
   },
   "config": {
     "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      "path": "./node_modules/cz-conventional-changelog"
     }
   }
 }
